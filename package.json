@@ -1,0 +1,48 @@
+{
+  "name": "ai-startup-validator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-agent system that validates AI startup ideas with five analyst agents and a Judge agent, streaming live progress via SSE.",
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "startup",
+    "validator",
+    "multi-agent",
+    "deepseek",
+    "serpapi",
+    "nextjs"
+  ],
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "typescript-eslint": "^8.61.1",
+    "vitest": "^2"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "sharp"
+    ]
+  }
+}
