@@ -4,6 +4,10 @@
   "private": true,
   "description": "Multi-agent system that validates AI startup ideas with five analyst agents and a Judge agent, streaming live progress via SSE.",
   "license": "MIT",
+  "packageManager": "pnpm@11.4.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "keywords": [
     "ai",
     "startup",
